@@ -7,6 +7,7 @@ import os
 from database import init_db, get_connection
 
 # --- CONFIGURATION ---
+TOKEN = os.getenv("DISCORD_TOKEN")
 ALLOWED_CHANNEL_ID = 1223265970580357232
 
 # Initialisation des tables au lancement
